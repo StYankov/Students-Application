@@ -1,0 +1,75 @@
+.students-list {
+    padding: 10px 0;
+}
+
+.list-item-wrapper {
+    border: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 1em;
+}
+
+.list-item-wrapper .item-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #403F4C;
+    padding: 8px 12px;
+    color: #fff;
+}
+
+.item-header .name {
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #fff;
+}
+
+.item-header button {
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+button.delete-student:hover {
+    color: #F44336;
+}
+
+button.edit-student:hover {
+    color: #4CAF50;
+}
+
+.list-item-wrapper p {
+    padding: 0;
+    margin: 0;
+}
+
+.list-item-wrapper .label {
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 0.9;
+    color: #191919;
+}
+
+.list-item-wrapper .value {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.list-item-wrapper .item-body {
+    padding: 16px 8px;
+    padding-bottom: 5px;
+}
+
+.item-body .i-row {
+    margin-bottom: 12px;
+}
+
+.item-footer {
+    padding-bottom: 12px;
+}
+
+.item-footer .personal-presentation {
+    padding: 0 12px;
+}
