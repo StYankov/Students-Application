@@ -2,8 +2,8 @@
 
 # Requirements
 
-NodeJS - >= 6.0 [Download](https://nodejs.org/en/download/)
-YARN  [Download](https://yarnpkg.com/en/docs/install)
+NodeJS - >= 6.0 [Download](https://nodejs.org/en/download/)  
+YARN  [Download](https://yarnpkg.com/en/docs/install)  
 create-react-app - >= 2.0.0  
 
 # How to run
